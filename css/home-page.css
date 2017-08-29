@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.filler {height: 320px;}
+.navList li:nth-of-type(1) a {color: #3e618f !important;}
+.navList li:nth-of-type(1) a:hover { cursor: default;}
+.navList li:nth-of-type(1):hover { -webkit-transition: none; transition: none;  
+cursor: default;  background-color: #1f304f;}
+.nav-side li:nth-of-type(1) {box-shadow: inset 0px 0px 55px #313a58; }
+.navList li:nth-of-type(1) { background-color: #1f304f;}
+.nav-side li:nth-of-type(1) a { color: gray !important;}
+.nav-side li:nth-of-type(1){ background: url('../images/icon_list.png') no-repeat 30px;  
+transition: background 0s linear !important; 
+-web-kit-transition: background 0s linear !important;}
+ .nav-side li:nth-of-type(1) a:hover { cursor: default; border: 1px solid rgba(255, 255, 255, 0); }
+.nav-side li:nth-of-type(1) { cursor: default;}
+
+@media only screen and (max-width:1024px){
+.hRule:nth-of-type(2) { margin: 0px; width: 100%;}
+.hRule:nth-of-type(4) { width: 100%;}
+.hRule:last-of-type { margin-left: 0px; margin-bottom: 10px;}
+}
+
+@media only screen and (max-width:320px){
+h1.lfcTech { left: -4% !important;}
+}
+
+
+

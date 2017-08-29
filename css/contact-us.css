@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* controlling the navigation statuses*/
+.filler {height: 645px;}
+.pcTipsDiv { display: none;}
+
+.navList li:nth-of-type(4) a { background-color:#1f304f; color: #3e618f !important;}
+.navList li:nth-of-type(4) a:hover { cursor: default;}
+.nav-side li:nth-of-type(4) {box-shadow: inset 0px 0px 55px #313a58; }
+.nav-side li:nth-of-type(4) a { color: gray !important;}
+.nav-side li:nth-of-type(4){ background: none;  
+transition: background 0s linear !important; 
+-web-kit-transition: background 0s linear !important;}
+ .nav-side li:nth-of-type(4) a:hover { cursor: default; border: 1px solid rgba(255, 255, 255, 0); }
+.nav-side li:nth-of-type(4) { cursor: default;}
+/* controlling the navigation statuses*/
+
+.serviceCatgs3 {float:right; width: 745px; position: relative; left: 1px;}
+.image-one-2, .image-two-2, .image-three-2 { float: left; width: 244px; height: 100px; 
+display: inline; margin-left: .55%; }
+.image-one-2 { background-image: url('../images/image-one-aboutUs.png');}
+.image-two-2 { background-image: url('../images/image-two-aboutUs.png');}
+.image-three-2 { background-image: url('../images/image-three-aboutUs.png');}
+form {float: left;}
+h2:nth-of-type(5) { float: left; color: red;}
+.hRule:nth-of-type(1) .hRule:nth-of-type(2) { margin-top: 10px !important; width: 100%;}
+
+@media only screen and (max-width:1024px){
+#buttonsDiv { float: left; margin-left: -5px; width: 100%; }	
+#send {float: left;  margin-left: 19%;}
+#reset {float: left; margin-left: 19%;}	
+}
+
+@media only screen and (min-width:640px) and (max-width:768px){
+#send {float: left;  margin-left: 20%;}
+#reset {float: left; margin-left: 20%;}		
+}
+
+@media only screen and (min-width:551px) and (max-width:639px){
+#send {float: left;  margin-left: 16%;}
+#reset {float: left; margin-left: 16%;}		
+}
+
+@media only screen and (max-width:550px){
+#send, #reset {margin-left: 4px;}	
+#send {float: left; width: 98%; margin-top: 20px;}
+#reset {float: left; width: 98%; margin-top: 0px; }
+}
+
+@media only screen and (max-width:320px){
+h1.lfcTech { left: -4% !important;}
+}
